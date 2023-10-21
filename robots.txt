@@ -4,4 +4,4 @@ Disallow: /feed.xml
 Disallow: /*.json
 Disallow: /*.js
 
-Sitemap: https://offshake.github.io/sitemap/sitemap.xml
+Sitemap: https://therayyanawaz.github.io/sitemap/sitemap.xml
