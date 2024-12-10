@@ -1,13 +1,13 @@
 // ------------------------------------------------
-// Project Name: Hintio Coming Soon & Landing Page Template
-// Project Description: Hintio - clean and bold coming soon & landing page template to kick-start your project
-// Tags: mix_design, hintio, coming soon, under construction, template, coming soon page, landing page, one page, html5, css3
+// Project Name: Rayyan Coming Soon & Landing Page Template
+// Project Description: Rayyan - clean and bold coming soon & landing page template to kick-start your project
+// Tags: therayyanawaz, Rayyan, coming soon, under construction, template, coming soon page, landing page, one page, html5, css3
 // Version: 2.0.2
 // Build Date: July 2020
 // Last Update: January 2024
-// This product is available exclusively on Themeforest
-// Author: mix_design
-// Author URI: https://themeforest.net/user/mix_design
+// This product is available exclusively on Github
+// Author: therayyanawaz
+// Author URI: https://Github.net/user/therayyanawaz
 // File name: custom.js
 // ------------------------------------------------
 
@@ -154,9 +154,9 @@ $(function() {
       transition: 'fade2',
       transitionDuration: 2000,
       slides: [
-        { src: "https://dummyimage.com/1200x1200/5e5e5e/404040" },
-        { src: "https://dummyimage.com/1200x1200/5e5e5e/404040" },
-        { src: "https://dummyimage.com/1200x1200/5e5e5e/404040" }
+        { src: "img/backgrounds/tech.jpg" },
+        { src: "img/backgrounds/tech.jpg" },
+        { src: "img/backgrounds/tech.jpg" }
       ],
       animation: [ 'kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight' ]
     });
@@ -170,9 +170,9 @@ $(function() {
       transition: 'fade2',
       transitionDuration: 2000,
       slides: [
-        { src: "https://dummyimage.com/1200x1200/5e5e5e/404040" },
-        { src: "https://dummyimage.com/1200x1200/5e5e5e/404040" },
-        { src: "https://dummyimage.com/1200x1200/5e5e5e/404040" }
+        { src: "img/backgrounds/tech.jpg" },
+        { src: "img/backgrounds/tech.jpg" },
+        { src: "img/backgrounds/tech.jpg" }
       ],
       animation: [ 'kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight' ]
     });
@@ -186,9 +186,9 @@ $(function() {
       transition: 'fade2',
       transitionDuration: 2000,
       slides: [
-        { src: "https://dummyimage.com/1920x1280/5e5e5e/404040" },
-        { src: "https://dummyimage.com/1920x1280/5e5e5e/404040" },
-        { src: "https://dummyimage.com/1920x1280/5e5e5e/404040" }
+        { src: "img/demo/city.mp4" },
+        { src: "img/demo/city.mp4" },
+        { src: "img/demo/city.mp4" }
       ],
       animation: [ 'kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight' ]
     });
@@ -200,8 +200,8 @@ $(function() {
   // --------------------------------------------- //
   // KBW-Countdown Start
   // --------------------------------------------- //
-  $('#countdown').countdown({until: $.countdown.UTCDate(+5:30, 2024, 12, 25), format: 'D'});
-  $('#countdown-large').countdown({until: $.countdown.UTCDate(+5:30, 2024, 12, 25), format: 'DHMS'});
+  $('#countdown').countdown({until: $.countdown.UTCDate(+530, 2025, 12, 1), format: 'D'});
+  $('#countdown-large').countdown({until: $.countdown.UTCDate(+530, 2025, 12, 1), format: 'DHMS'});
   // --------------------------------------------- //
   // KBW-Countdown End
   // --------------------------------------------- //

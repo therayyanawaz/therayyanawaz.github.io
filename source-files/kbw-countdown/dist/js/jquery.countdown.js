@@ -271,7 +271,7 @@ timezone: -60
 			@param {number} [secs] The second (omit if <code>year</code> is a <code>Date</code>).
 			@param {number} [ms] The millisecond (omit if <code>year</code> is a <code>Date</code>).
 			@return {Date} The equivalent UTC date/time.
-			@example $.countdown.UTCDate(+5:30, 2024, 12, 25)
+			@example $.countdown.UTCDate(+10, 2013, 12-1, 25, 12, 0)
 $.countdown.UTCDate(-7, new Date(2013, 12-1, 25, 12, 0)) */
 		UTCDate: function(tz, year, month, day, hours, mins, secs, ms) {
 			if (typeof year === 'object' && year instanceof Date) {
