@@ -969,7 +969,11 @@
 
             <!-- Notify Contact Form Start-->
             <form class="form notify-form form-light">
-              <input class="block-rounded-s" type="email" placeholder="Your Email" required>
+              <input class="block-rounded-s" type="email" name="EMAIL" placeholder="Your Email" required>
+              <!-- These fields are used to prevent bot signups -->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_YOUR_USER_ID_YOUR_LIST_ID" tabindex="-1" value="">
+              </div>
               <button class="btn btn-l btn-light hover-gradient hover-gradient-l" type="submit">
                 <em></em>
                 <span class="btn-caption">Submit</span>

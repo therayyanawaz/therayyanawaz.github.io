@@ -186,7 +186,9 @@ $(function() {
   // --------------------------------------------- //
   $('.notify-form').ajaxChimp({
     callback: mailchimpCallback,
-    url: 'https://besaba.us10.list-manage.com/subscribe/post?u=e8d650c0df90e716c22ae4778&amp;id=54a7906900'
+    // Replace this URL with your actual Mailchimp list URL
+    // Format: https://<YOUR_DATACENTER>.list-manage.com/subscribe/post?u=<YOUR_USER_ID>&amp;id=<YOUR_LIST_ID>
+    url: 'https://yourdomain.us1.list-manage.com/subscribe/post?u=YOUR_USER_ID&amp;id=YOUR_LIST_ID'
   });
 
   function mailchimpCallback(resp) {
