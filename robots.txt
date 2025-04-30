@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /mail.php
+Disallow: /.git/
+
+# Sitemap location
+Sitemap: https://therayyanawaz.co.in/sitemap.xml 

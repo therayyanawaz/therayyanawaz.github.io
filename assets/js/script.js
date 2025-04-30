@@ -98,4 +98,42 @@
 		},]
 	});
 
+	// WhatsApp floating button tooltip
+	$(document).ready(function() {
+		const whatsappButton = $('.floating-whatsapp a');
+		
+		// Create tooltip element
+		$('<div class="whatsapp-tooltip">Chat with me</div>').insertAfter(whatsappButton);
+		
+		// Style the tooltip
+		$('.whatsapp-tooltip').css({
+			'position': 'absolute',
+			'right': '70px',
+			'top': '50%',
+			'transform': 'translateY(-50%)',
+			'background-color': '#25D366',
+			'color': 'white',
+			'padding': '6px 12px',
+			'border-radius': '4px',
+			'font-size': '14px',
+			'white-space': 'nowrap',
+			'opacity': '0',
+			'transition': 'opacity 0.3s ease',
+			'pointer-events': 'none'
+		});
+		
+		// Add arrow to tooltip
+		$('.whatsapp-tooltip').append('<span style="position: absolute; right: -6px; top: 50%; transform: translateY(-50%); width: 0; height: 0; border-top: 6px solid transparent; border-bottom: 6px solid transparent; border-left: 6px solid #25D366;"></span>');
+		
+		// Show/hide tooltip on hover
+		whatsappButton.hover(
+			function() {
+				$('.whatsapp-tooltip').css('opacity', '1');
+			},
+			function() {
+				$('.whatsapp-tooltip').css('opacity', '0');
+			}
+		);
+	});
+
 })(jQuery);
